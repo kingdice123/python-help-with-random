@@ -14,38 +14,31 @@ import os
 
 Keyboard = Billkontroll()
 
-
-
-
-
-
 print("Válassz nehézségi szintet! 1-könnyű, 2-nehéz")
 
 fok = int(input())
 
-if fok == 1:
+    if fok == 1:
 
-    hossz = 2
+        hossz = 2
     
-    for i in range(0, hossz):
+         for i in range(0, hossz):
     
-        os.system('cls')
+              os.system('cls')
         
-        print(random.randint(0, 99), end=" ")
+              print(random.randint(0, 99), end=" ")
         
-        hossz += 1
+             hossz += 1
         
-    time.sleep(2)
+         time.sleep(2)
     
+    elif fok == 2:
 
-
-elif fok == 2:
-
-    print("a")
+        print("a")
     
-else:
+    else:
 
-    print("a")
+        print("a")
     
 
 
@@ -56,25 +49,25 @@ The second code is:
 
 
 
-import random
+    import random
 
-import time
+    import time
 
-import os
+    import os
 
-a = int(input("Írd be a kód hosszát:\n"))
+    a = int(input("Írd be a kód hosszát:\n"))
 
-os.system('CLS')
+    os.system('CLS')
 
-print("A kód:")
+    print("A kód:")
 
-for i in range(0, a):
+    for i in range(0, a):
 
-    print(random.randint(0, 9), end=" ")
+        print(random.randint(0, 9), end=" ")
     
-time.sleep(999)
+    time.sleep(999)
 
-print("\n \n \n \n \n \n \n Bezárás: CTRL+C")
+    print("\n \n \n \n \n \n \n Bezárás: CTRL+C")
 
 
 
