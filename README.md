@@ -1,6 +1,6 @@
 # python-help-with-random
 So, I'v been trying to make a new program.. I'm a newbie programmer so it can be a stupid question but I need help with my code
-The main problem is that IDLE can run my code perfectly but when I open it like any other app (with double click), it just simply not work.. so I made an another code with the same way of using random and I got the same problem.
+The main problem is that IDLE can run my code perfectly but when I open it like any other app (with double click), it just simply not work.. so I made an another code with the same way of using random and I got the same problem. The time.sleep command run BEFORE it prints the numbers and the code got finished immadietly
 The first code:
 
 
