@@ -4,19 +4,19 @@ The main problem is that IDLE can run my code perfectly but when I open it like 
 The first code:
 
 
-import random
+    import random
 
-import time
+    import time
 
-from pynput.keyboard import Key, Controller as Billkontroll
+    from pynput.keyboard import Key, Controller as Billkontroll
 
-import os
+    import os
 
-Keyboard = Billkontroll()
+    Keyboard = Billkontroll()
 
-print("Válassz nehézségi szintet! 1-könnyű, 2-nehéz")
+    print("Válassz nehézségi szintet! 1-könnyű, 2-nehéz")
 
-fok = int(input())
+    fok = int(input())
 
     if fok == 1:
 
