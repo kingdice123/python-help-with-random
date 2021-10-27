@@ -5,30 +5,48 @@ The first code:
 
 
 import random
+
 import time
+
 from pynput.keyboard import Key, Controller as Billkontroll
+
 import os
+
 Keyboard = Billkontroll()
 
 
 
 
 
+
 print("Válassz nehézségi szintet! 1-könnyű, 2-nehéz")
+
 fok = int(input())
+
 if fok == 1:
+
     hossz = 2
+    
     for i in range(0, hossz):
+    
         os.system('cls')
+        
         print(random.randint(0, 99), end=" ")
+        
         hossz += 1
+        
     time.sleep(2)
+    
 
 
 elif fok == 2:
+
     print("a")
+    
 else:
+
     print("a")
+    
 
 
 
@@ -39,15 +57,25 @@ The second code is:
 
 
 import random
+
 import time
+
 import os
+
 a = int(input("Írd be a kód hosszát:\n"))
+
 os.system('CLS')
+
 print("A kód:")
+
 for i in range(0, a):
+
     print(random.randint(0, 9), end=" ")
+    
 time.sleep(999)
+
 print("\n \n \n \n \n \n \n Bezárás: CTRL+C")
+
 
 
 
